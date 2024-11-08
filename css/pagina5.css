@@ -1,0 +1,157 @@
+/* Navegación activa */
+nav ul li a.active {
+    color: #0056b3; /* Color diferente para la página activa */
+    font-weight: bold;
+}
+
+/* Estilos para las secciones de consecuencias */
+/* Contenedor para alinear imagen y texto a la izquierda */
+.consecuencia-contenido {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.consecuencia-image {
+    max-width: 150px;
+    border: 4px solid #0e0e0e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+    padding: 0 20px;
+}
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+/* Índice de desplazamiento fijo a la derecha */
+.indice-derecha {
+    position: fixed;
+    top: 20%;
+    right: 10px;
+    width: 220px; /* Aumentar el ancho para más espacio */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para un efecto más elevado */
+    padding: 15px; /* Espaciado interno */
+    z-index: 100; /* Asegura que el índice esté por encima del contenido */
+}
+
+.indice-derecha ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+    margin: 0; /* Sin margen */
+}
+
+.indice-derecha li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+.indice-derecha a {
+    color: #0cc73f; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+    display: block; /* Cada enlace ocupa toda la línea */
+    padding: 8px 10px; /* Espaciado interno en los enlaces */
+    border-radius: 5px; /* Bordes redondeados en enlaces */
+}
+
+.indice-derecha a:hover {
+    background-color: #e7f1ff; /* Fondo azul claro al pasar el ratón */
+    color: #003d7a; /* Color de texto más oscuro al pasar el ratón */
+    text-decoration: none; /* Sin subrayado en hover */
+}
+
+.video-section {
+    text-align: center; /* Centra el texto */
+    padding: 40px 20px; /* Espaciado vertical y lateral */
+}
+
+.video-section h2 {
+    font-size: 2em; /* Tamaño de fuente para el título */
+    margin-bottom: 10px; /* Espaciado entre título y frase */
+}
+
+.video-section p {
+    font-size: 1.2em; /* Tamaño de fuente para la frase motivadora */
+    color: #555; /* Color de la frase motivadora */
+    margin-bottom: 20px; /* Espaciado entre frase y video */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra el video horizontalmente */
+}
+
+.video-container iframe {
+    max-width: 100%; /* Permite que el video se ajuste a pantallas más pequeñas */
+    height: 315px; /* Altura fija para el video */
+}

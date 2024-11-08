@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo claro */
+}
+
+header {
+    background: #007BFF; /* Color azul para el encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenido principal */
+}
+
+section {
+    margin-bottom: 40px; /* Espaciado entre secciones */
+}
+
+/* Estilos para el índice superior */
+nav.indice-superior {
+    background: #0056b3; /* Azul oscuro para el índice */
+    padding: 10px;
+    text-align: center;
+}
+
+nav.indice-superior ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.indice-superior li {
+    display: inline; /* Índice en línea */
+    margin: 0 15px; /* Espacio entre elementos */
+}
+
+nav.indice-superior a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav.indice-superior a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Estilos para el contenido principal con imagen y texto */
+.medida-contenido {
+    display: flex;
+    text-align: justify; /* Alineación vertical centrada */
+    margin-bottom: 20px;
+}
+
+.medida-image {
+    max-width: 45%; /* Limita el ancho de la imagen */
+    margin-right: 20px; /* Espacio entre imagen y texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto 3D */
+}
+
+.medida-contenido div {
+    max-width: 55%; /* Limita el ancho del texto */
+}
+
+/* Enlace motivador en la parte inferior */
+.enlace-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.enlace-section p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Espacio entre texto y enlace */
+}
+
+.enlace-image {
+    max-width: 80%; /* Ancho máximo de la imagen del enlace */
+    border-radius: 8px;
+    transition: transform 0.3s; /* Efecto de transición para hover */
+}
+
+.enlace-image:hover {
+    transform: scale(1.05); /* Efecto de aumento en hover */
+}
+
+/* Pie de página */
+footer {
+    background: #007BFF; /* Fondo azul del pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

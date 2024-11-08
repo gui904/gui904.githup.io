@@ -1,0 +1,85 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Índice Superior */
+.indice-superior {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.indice-superior ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.indice-superior li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.indice-superior a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.indice-superior a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido Principal */
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+/* Imagen de Organización */
+.imagen-organizacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-organizacion img {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+
+/* Pie de Página */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

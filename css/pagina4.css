@@ -1,0 +1,127 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background-color: #e2f1e2;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Imágenes de gases */
+.gas-image {
+    display: block;
+    margin: 15px auto; /* Centra la imagen */
+    max-width: 30%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción original */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
+/* Imagen decorada en modo rectángulo y posición inferior */
+.decorada-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el título y la imagen horizontalmente */
+    margin: 20px auto; /* Añade margen y centra horizontalmente */
+    width: 80%; /* Ajusta el ancho del contenedor */
+    text-align: center;
+}
+
+.decorada-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Espaciado entre título e imagen */
+}
+
+.decorada {
+    width: 100%; /* La imagen ocupa el ancho completo del contenedor */
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    border: 5px solid #0e0e0e; /* Borde negro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para efecto 3D */
+}
